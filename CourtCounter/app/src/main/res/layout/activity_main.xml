@@ -30,7 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-
+                android:textSize="42sp"
                 android:gravity="center_horizontal"
                 android:text="0" />
 
@@ -39,6 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:onClick="addThreeForTeamA"
+                android:backgroundTint="@color/colorAccent"
                 android:text="+3 POINTS" />
 
             <Button
@@ -46,6 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:onClick="addTwoForTeamA"
+                android:backgroundTint="@color/colorAccent"
                 android:text="+2 POINTS" />
 
             <Button
@@ -53,6 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:onClick="addOneForTeamA"
+                android:backgroundTint="@color/colorAccent"
                 android:text="FREE THROW" />
 
         </LinearLayout>
@@ -77,6 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textSize="42sp"
                 android:gravity="center_horizontal"
                 android:text="0" />
 
@@ -85,6 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:onClick="addThreeForTeamB"
+                android:backgroundTint="@color/colorAccent"
                 android:text="+3 POINTS" />
 
             <Button
@@ -92,6 +97,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:onClick="addTwoForTeamB"
+                android:backgroundTint="@color/colorAccent"
                 android:text="+2 POINTS" />
 
             <Button
@@ -99,6 +105,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:onClick="addOneForTeamB"
+                android:backgroundTint="@color/colorAccent"
                 android:text="FREE THROW" />
 
         </LinearLayout>
@@ -111,6 +118,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
+        android:backgroundTint="@color/colorAccent"
         android:onClick="reset"
         android:text="Reset" />
 
