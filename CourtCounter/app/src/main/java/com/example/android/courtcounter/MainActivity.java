@@ -80,4 +80,14 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(scoreTeamB);
     }
 
+    /**
+     * This buttom resets the scores for both Team A and Team B to 0.
+     *
+     */
+    public void reset(View v) {
+        scoreTeamA = 0;
+        scoreTeamB = 0;
+        displayForTeamA(scoreTeamA);
+        displayForTeamB(scoreTeamB);
+    }
 }
