@@ -3,7 +3,9 @@ package com.example.android.practiceset2;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
-
+/*
+ * here is a comment
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
