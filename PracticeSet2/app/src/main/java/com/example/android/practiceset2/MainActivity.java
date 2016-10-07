@@ -2,22 +2,29 @@ package com.example.android.practiceset2;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Display;
 import android.widget.TextView;
 
+
 public class MainActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String firstName = "Lyla";
-        String lastName = "Fujiwara";
-        String contactInfo = firstName + " " + lastName;
-        contactInfo = "<" + lastName + "." + firstName + "@justjava.com>";
-        display(contactInfo);}
-    /**
-     * Display methods that allow the text to appear on the screen. Don't worry if you don't know
+    int y;
+        y = of(5);
+        display(y);
+    }
+
+    public int of(int x){
+        return x * x;
+    }
+
+     /** Display methods that allow the text to appear on the screen. Don't worry if you don't know
      * how these work yet. We'll be covering them in lesson 3.
      */
 
